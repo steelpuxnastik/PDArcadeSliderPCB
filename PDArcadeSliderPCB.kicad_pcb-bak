@@ -1539,7 +1539,7 @@
   (module testlibrary:testtt (layer B.Cu) (tedit 5DDD12EB) (tstamp 5C6BDC15)
     (at 155.8 165.74 90)
     (path /5C3C87CA)
-    (fp_text reference "< Connection pins to Cypress" (at -0.05 -21.55 180) (layer B.SilkS)
+    (fp_text reference J2 (at -2.88 -5.32 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Conn_01x06_Male (at 0 0.5 270) (layer B.Fab)
