@@ -1,0 +1,54 @@
+( { EESchema Netlist Version 1.1  10.12.2019 14:31:55
+Eeschema (5.99.0-422-g7c7d9c3e3)}
+ ( 5C3C87CA testlibrary:testtt J2 Conn_01x06_Male
+  ( 1 Net-(J1-Pad1) )
+  ( 2 Net-(J2-Pad2) )
+  ( 3 Net-(J2-Pad3) )
+  ( 4 Net-(J2-Pad4) )
+  ( 5 Net-(J2-Pad5) )
+  ( 6 Net-(J2-Pad6) )
+ )
+ ( 5DDFA193 $noname U1 testsensorg
+  ( 1 Net-(J1-Pad1) )
+ )
+ ( 5DDFB269 $noname U2 testsensorg
+  ( 1 Net-(J2-Pad2) )
+ )
+ ( 5DDFE35C $noname U3 testsensorg
+  ( 1 Net-(J2-Pad3) )
+ )
+ ( 5DE011FA $noname U4 testsensorg
+  ( 1 Net-(J2-Pad4) )
+ )
+ ( 5DE01935 $noname U5 testsensorg
+  ( 1 Net-(J2-Pad5) )
+ )
+ ( 5DE01F95 $noname U6 testsensorg
+  ( 1 Net-(J2-Pad6) )
+ )
+ ( 5DEF9922 Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal J3 Conn_01x01
+  ( 1 GND )
+ )
+ ( 5DEFB162 Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal J4 Conn_01x01
+  ( 1 GND )
+ )
+ ( 5DEF97FC Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J1 Conn_01x01_Male
+  ( 1 Net-(J1-Pad1) )
+ )
+ ( 5DF05BAB Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J9 Conn_01x01_Male
+  ( 1 Net-(J2-Pad6) )
+ )
+ ( 5DF04C31 Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J8 Conn_01x01_Male
+  ( 1 Net-(J2-Pad5) )
+ )
+ ( 5DF0361D Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J7 Conn_01x01_Male
+  ( 1 Net-(J2-Pad4) )
+ )
+ ( 5DF01E75 Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J6 Conn_01x01_Male
+  ( 1 Net-(J2-Pad3) )
+ )
+ ( 5DF0067C Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical J5 Conn_01x01_Male
+  ( 1 Net-(J2-Pad2) )
+ )
+)
+*
