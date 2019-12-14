@@ -28,7 +28,7 @@ U 1 1 5C3C87CA
 P 6750 3600
 F 0 "J2" H 6856 3978 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 6856 3887 50  0000 C CNN
-F 2 "testlibrary:testtt" H 6750 3600 50  0001 C CNN
+F 2 "test:testtt" H 6750 3600 50  0001 C CNN
 F 3 "~" H 6750 3600 50  0001 C CNN
 	1    6750 3600
 	1    0    0    -1  
