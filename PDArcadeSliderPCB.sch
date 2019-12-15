@@ -135,17 +135,6 @@ F 3 "~" H 7350 4350 50  0001 C CNN
 	1    7350 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5DEFB162
-P 8200 4450
-F 0 "J4" H 8280 4492 50  0000 L CNN
-F 1 "Conn_01x01" H 8280 4401 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 8200 4450 50  0001 C CNN
-F 3 "~" H 8200 4450 50  0001 C CNN
-	1    8200 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 4450 8000 4300
 Wire Wire Line
@@ -253,4 +242,50 @@ Wire Wire Line
 Connection ~ 7500 3700
 Wire Wire Line
 	7500 3700 8100 3700
+Wire Wire Line
+	7650 4300 7750 4300
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5DEFB162
+P 8200 4450
+F 0 "J4" H 8280 4492 50  0000 L CNN
+F 1 "Conn_01x01" H 8280 4401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 8200 4450 50  0001 C CNN
+F 3 "~" H 8200 4450 50  0001 C CNN
+	1    8200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PDArcadeSliderPCBsensorlib:topgroundhatching J10
+U 1 1 5DF7238E
+P 7850 4750
+F 0 "J10" H 7930 4792 50  0000 L CNN
+F 1 "topgroundhatching" H 7930 4701 50  0000 L CNN
+F 2 "PDArcadeSliderPCB:TopHatching" H 7850 4750 50  0001 C CNN
+F 3 "~" H 7850 4750 50  0001 C CNN
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4300 7650 4750
+$Comp
+L PDArcadeSliderPCBsensorlib:topgroundhatching J?
+U 1 1 5DF747A8
+P 8900 4700
+F 0 "J?" H 8980 4742 50  0000 L CNN
+F 1 "topgroundhatching" H 8980 4651 50  0000 L CNN
+F 2 "PDArcadeSliderPCB:bottomhatching" H 8900 4700 50  0001 C CNN
+F 3 "~" H 8900 4700 50  0001 C CNN
+	1    8900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4700 8100 4700
+Wire Wire Line
+	8100 4700 8100 4900
+Wire Wire Line
+	8100 4900 7650 4900
+Wire Wire Line
+	7650 4900 7650 4750
+Connection ~ 7650 4750
 $EndSCHEMATC

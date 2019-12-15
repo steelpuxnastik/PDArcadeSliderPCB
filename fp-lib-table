@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name "project diva logo")(type KiCad)(uri C:/Users/jandevalua/Documents/GitHub/testsliderpcb/logos)(options "")(descr ""))
-  (lib (name test)(type KiCad)(uri C:/Users/jandevalua/Documents/GitHub/PDArcadeSliderPCB/testlibrary.pretty)(options "")(descr ""))
+  (lib (name "project diva logo")(type "KiCad")(uri "C:/Users/jandevalua/Documents/GitHub/testsliderpcb/logos")(options "")(descr ""))
+  (lib (name "test")(type "KiCad")(uri "C:/Users/jandevalua/Documents/GitHub/PDArcadeSliderPCB/testlibrary.pretty")(options "")(descr ""))
+  (lib (name "PDArcadeSliderPCB")(type "KiCad")(uri "${KIPRJMOD}/PDArcadeSliderPCB.pretty")(options "")(descr ""))
 )

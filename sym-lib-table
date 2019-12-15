@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "test")(type "Legacy")(uri "C:/Users/jandevalua/Documents/GitHub/PDArcadeSliderPCB/PDArcadeSliderPCBsensorlib.lib")(options "")(descr ""))
   (lib (name "test2")(type "Legacy")(uri "C:/Users/jandevalua/Documents/GitHub/PDArcadeSliderPCB/PDArcadeSliderPCB-cache.lib")(options "")(descr ""))
+  (lib (name "PDArcadeSliderPCBsensorlib")(type "Legacy")(uri "${KIPRJMOD}/PDArcadeSliderPCBsensorlib.lib")(options "")(descr ""))
 )
