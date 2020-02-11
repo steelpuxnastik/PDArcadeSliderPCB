@@ -9,4 +9,4 @@ Second version with ground hatching and other modifications (because first you h
 
 ![Иллюстрация к проекту](https://github.com/steelpuxnastik/PDArcadeSliderPCB/blob/master/images/3.JPG)
 
-![Иллюстрация к проекту](https://github.com/steelpuxnastik/PDArcadeSliderPCB/blob/master/images/4.JPG)
+![Иллюстрация к проекту](https://github.com/steelpuxnastik/PDArcadeSliderPCB/blob/master/images/4.jpg)
