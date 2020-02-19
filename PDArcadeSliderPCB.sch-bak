@@ -269,12 +269,12 @@ $EndComp
 Wire Wire Line
 	7650 4300 7650 4750
 $Comp
-L PDArcadeSliderPCBsensorlib:topgroundhatching J?
+L PDArcadeSliderPCBsensorlib:topgroundhatching J11
 U 1 1 5DF747A8
 P 8900 4700
-F 0 "J?" H 8980 4742 50  0000 L CNN
+F 0 "J11" H 8980 4742 50  0000 L CNN
 F 1 "topgroundhatching" H 8980 4651 50  0000 L CNN
-F 2 "PDArcadeSliderPCB:TopHatching" H 8900 4700 50  0001 C CNN
+F 2 "PDArcadeSliderPCB:bottomhatching" H 8900 4700 50  0001 C CNN
 F 3 "~" H 8900 4700 50  0001 C CNN
 	1    8900 4700
 	1    0    0    -1  
