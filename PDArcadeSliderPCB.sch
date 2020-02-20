@@ -24,8 +24,6 @@ Connection ~ 7500 3600
 Connection ~ 7500 3700
 Connection ~ 7500 3800
 Connection ~ 7500 3900
-Connection ~ 7650 4750
-Connection ~ 7750 4300
 Wire Wire Line
 	6950 3400 7500 3400
 Wire Wire Line
@@ -34,10 +32,6 @@ Wire Wire Line
 	6950 3800 7500 3800
 Wire Wire Line
 	6950 3900 7500 3900
-Wire Wire Line
-	7150 4200 7750 4200
-Wire Wire Line
-	7150 4350 7150 4200
 Wire Wire Line
 	7500 3400 7800 3400
 Wire Wire Line
@@ -50,14 +44,6 @@ Wire Wire Line
 	7500 3800 8050 3800
 Wire Wire Line
 	7500 3900 8000 3900
-Wire Wire Line
-	7650 4300 7650 4750
-Wire Wire Line
-	7650 4300 7750 4300
-Wire Wire Line
-	7650 4900 7650 4750
-Wire Wire Line
-	7750 4200 7750 4300
 Wire Wire Line
 	7800 3200 7800 3400
 Wire Wire Line
@@ -73,10 +59,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 4200 8100 4200
 Wire Wire Line
-	8000 4300 7750 4300
-Wire Wire Line
-	8000 4450 8000 4300
-Wire Wire Line
 	8050 3800 8050 4000
 Wire Wire Line
 	8050 4000 8100 4000
@@ -84,23 +66,6 @@ Wire Wire Line
 	8100 3600 7500 3600
 Wire Wire Line
 	8100 3700 8100 3800
-Wire Wire Line
-	8100 4700 8100 4900
-Wire Wire Line
-	8100 4900 7650 4900
-Wire Wire Line
-	8700 4700 8100 4700
-$Comp
-L power:GND #PWR0101
-U 1 1 5DEF6165
-P 7750 4300
-F 0 "#PWR0101" H 7750 4050 50  0001 C CNN
-F 1 "GND" H 7755 4127 50  0000 C CNN
-F 2 "" H 7750 4300 50  0001 C CNN
-F 3 "" H 7750 4300 50  0001 C CNN
-	1    7750 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x01_Male J1
 U 1 1 5DEF97FC
@@ -165,50 +130,6 @@ F 1 "Conn_01x01_Male" H 7408 3990 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 7300 3900 50  0001 C CNN
 F 3 "~" H 7300 3900 50  0001 C CNN
 	1    7300 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5DEF9922
-P 7350 4350
-F 0 "J3" H 7430 4392 50  0000 L CNN
-F 1 "Conn_01x01" H 7430 4301 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 7350 4350 50  0001 C CNN
-F 3 "~" H 7350 4350 50  0001 C CNN
-	1    7350 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PDArcadeSliderPCBsensorlib:topgroundhatching J10
-U 1 1 5DF7238E
-P 7850 4750
-F 0 "J10" H 7930 4792 50  0000 L CNN
-F 1 "topgroundhatching" H 7930 4701 50  0000 L CNN
-F 2 "PDArcadeSliderPCB:TopHatching" H 7850 4750 50  0001 C CNN
-F 3 "~" H 7850 4750 50  0001 C CNN
-	1    7850 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5DEFB162
-P 8200 4450
-F 0 "J4" H 8280 4492 50  0000 L CNN
-F 1 "Conn_01x01" H 8280 4401 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal" H 8200 4450 50  0001 C CNN
-F 3 "~" H 8200 4450 50  0001 C CNN
-	1    8200 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L PDArcadeSliderPCBsensorlib:topgroundhatching J11
-U 1 1 5DF747A8
-P 8900 4700
-F 0 "J11" H 8980 4742 50  0000 L CNN
-F 1 "topgroundhatching" H 8980 4651 50  0000 L CNN
-F 2 "PDArcadeSliderPCB:bottomhatching" H 8900 4700 50  0001 C CNN
-F 3 "~" H 8900 4700 50  0001 C CNN
-	1    8900 4700
 	1    0    0    -1  
 $EndComp
 $Comp
