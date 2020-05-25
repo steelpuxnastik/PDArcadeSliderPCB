@@ -10,3 +10,5 @@ Second version with ground hatching and other modifications (because first you h
 ![Иллюстрация к проекту](https://github.com/steelpuxnastik/PDArcadeSliderPCB/blob/master/images/3.JPG)
 
 ![Иллюстрация к проекту](https://github.com/steelpuxnastik/PDArcadeSliderPCB/blob/master/images/4.jpg)
+
+Sorry, I forget to make photoes of last at this moment (third) version of PCB, because it's already installed to controller and working perfectly, so I like it :)))
